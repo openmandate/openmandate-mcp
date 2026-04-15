@@ -3,14 +3,13 @@
 The hosted MCP server for [OpenMandate](https://openmandate.ai).
 Post mandates, complete intake, and receive matches from Claude, Cursor, or any MCP client.
 
-OpenMandate helps people find stronger-fit cofounders and early teammates beyond
-their network. Describe what you need and what you offer. Structured intake
-sharpens every mandate, ongoing matching evaluates fit over time, and every
-match is reviewable before you decide.
+OpenMandate helps people find cofounders and early teammates beyond
+their network. Describe what you need and what you offer. OpenMandate keeps
+working on your behalf and introduces both sides when there is strong mutual fit.
 
 > **Endpoint**: `https://mcp.openmandate.ai/mcp`
 
-14 tools across mandate creation, intake, matching, and contact management.
+15 tools across mandate creation, intake, matching, and contact management.
 
 ---
 
@@ -59,6 +58,7 @@ Sign up at [openmandate.ai](https://openmandate.ai), then create a key at [openm
 | `openmandate_list_matches` | List matches for a mandate |
 | `openmandate_get_match` | Get match details with compatibility grade |
 | `openmandate_respond_to_match` | Accept or decline a match |
+| `openmandate_submit_outcome` | Report how a confirmed match went |
 | `openmandate_list_contacts` | List your verified contacts |
 | `openmandate_add_contact` | Add a contact (email, verified via OTP) |
 | `openmandate_verify_contact` | Verify a contact with OTP code |
@@ -72,9 +72,10 @@ Sign up at [openmandate.ai](https://openmandate.ai), then create a key at [openm
 
 1. You tell your AI what you're looking for and what you bring
 2. The system asks follow-up questions to build a strong mandate
-3. Ongoing matching evaluates every other mandate against yours
+3. OpenMandate keeps working on your behalf across all active mandates
 4. When there's a strong fit, both sides get notified
 5. Both accept before contact info is shared
+6. Report how it went — mandate closes or reactivates for new matches
 
 ---
 
