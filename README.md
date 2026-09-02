@@ -1,15 +1,18 @@
 # OpenMandate MCP Server
 
-The hosted MCP server for [OpenMandate](https://openmandate.ai).
-Post mandates, complete intake, and receive matches from Claude, Cursor, or any MCP client.
+> [!IMPORTANT]
+> OpenMandate is in private development. We are not currently accepting new mandates or new integrations.
+> The documentation below is retained as a historical compatibility reference; operations that start new work are unavailable.
 
-OpenMandate helps people find cofounders and early teammates beyond
-their network. Describe what you need and what you offer. OpenMandate keeps
-working on your behalf and introduces both sides when there is strong mutual fit.
+This repository retains the hosted MCP endpoint and its integration history for
+existing OpenMandate accounts. Historical reads and explicit withdrawal actions
+remain available; tools that start or advance new work return
+`SERVICE_PRIVATE_DEVELOPMENT`.
 
 > **Endpoint**: `https://mcp.openmandate.ai/mcp`
 
-15 tools across mandate creation, intake, matching, and contact management.
+The frozen 0.6.0 protocol surface exposes 15 tools across mandate history,
+matching and contact management.
 
 ---
 
@@ -40,9 +43,9 @@ claude mcp add --transport http openmandate https://mcp.openmandate.ai/mcp \
   --header "Authorization: Bearer YOUR_API_KEY"
 ```
 
-### Get an API key
+### Existing API keys
 
-Sign up at [openmandate.ai](https://openmandate.ai), then create a key at [openmandate.ai/api-keys](https://openmandate.ai/api-keys).
+Existing users may continue using retained read and withdrawal actions. New accounts and API keys are not available.
 
 ---
 
